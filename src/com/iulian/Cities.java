@@ -41,7 +41,7 @@ public class Cities {
     };
     Comparator<City> byConnectionsComparator =  new Comparator<City>() {
         public int compare(City c1, City c2) {
-            return  c1.getConnections().compareTo(c2.getConnections());
+            return  c2.getConnections().compareTo(c1.getConnections());
         }
     };
 
