@@ -10,8 +10,6 @@ public class Main {
     static Cities cities = new Cities();
     static Connections conns = new Connections();
 
-    //    static Map map = new HashMap<Integer, Vector<Integer>>();
-//    static List<Integer> list = new ArrayList<Integer>();
     public static void main(String[] args) {
         Integer orase_initial;
         Integer conexiuni_initial;
